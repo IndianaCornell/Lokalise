@@ -1,0 +1,36 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 1330px;
+  margin: 0 auto;
+  outline: 1px solid red;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
