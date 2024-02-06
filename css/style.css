@@ -20,6 +20,7 @@ img {
 body {
   font-family: "Open Sans", sans-serif;
 }
+
 .container {
   width: 1330px;
   margin: 0 auto;
@@ -31,6 +32,7 @@ body {
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
