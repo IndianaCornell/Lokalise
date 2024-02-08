@@ -18,7 +18,7 @@ img {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans';
 }
 
 .container {
@@ -35,4 +35,34 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+/* header */
+
+.header {
+  padding: 25px 0;
+}
+
+.header-container {
+  display: flex;
+  text-align: center;
+}
+
+.header-navigation {
+  display: flex;
+  gap: 51px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 57px;
+}
+
+.header-buttons {
+  margin-left: auto;
+}
+
+.header-btn {
+  min-width: 120px;
 }

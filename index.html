@@ -11,28 +11,43 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-
   <body>
-    <header>
-      <div class="container">
+    <header class="header">
+      <div class="container header-container">
         <nav class="header-navigation">
-          <a href="/" class="logo-link">
+          <a href="/" class="logo-link link">
             <img src="./img/lokalis_logo.svg" alt="logo" />
           </a>
-          <ul class="nav-list">
-            <li class="nav-item"><a href="" class="nav-link">Product</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Pricing</a></li>
+          <ul class="nav-list list">
             <li class="nav-item">
-              <a href="" class="nav-link">Case studies</a>
+              <a href="" class="nav-link link">Product</a>
             </li>
-            <li class="nav-item"><a href="" class="nav-link">Resources</a></li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Case studies</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Resources</a>
+            </li>
           </ul>
         </nav>
-        <button type="button" class="header-btn btn">Log in</button>
-        <button type="button" class="header-btn btn">Try it free</button>
+        <div class="header-buttons">
+          <button type="button" class="header-btn btn">Log in</button>
+          <button type="button" class="header-btn btn">Try it free</button>
+        </div>
       </div>
     </header>
     <main>
@@ -61,7 +76,7 @@
           <h2 class="companies-header">
             The preferred localization tool of 1500+ companies
           </h2>
-          <ul class="companies-list">
+          <ul class="companies-list list">
             <li class="companies-items">
               <img src="./img/specialized.svg" alt="Specialized" />
             </li>
@@ -86,7 +101,7 @@
       <!-- advantages  -->
       <section class="advantages">
         <div class="container">
-          <ul class="advantages-list">
+          <ul class="advantages-list list">
             <li class="advantages-item">
               <h2 class="advatages-header">Control the localization process</h2>
               <p class="advantages-desc">
@@ -94,7 +109,7 @@
                 tasks, track progress, and enjoy a seamless localization
                 workflow where you know who is doing what and when.
               </p>
-              <a href="/" class="">Start now</a>
+              <a href="/" class="link">Start now</a>
               <img
                 src="./img/localization-process.png"
                 alt="localization-process"
@@ -108,7 +123,7 @@
                 translations as soon as the product design is ready. No more
                 idle waiting.
               </p>
-              <a href="/" class="">Start now</a>
+              <a href="/" class="link">Start now</a>
               <img src="./img/market.png" alt="market" />
             </li>
             <li class="advantages-item">
@@ -119,7 +134,7 @@
                 of translations. Add product screenshots for context and use the
                 in-context editors for instant previews.
               </p>
-              <a href="/" class="">Start now</a>
+              <a href="/" class="link">Start now</a>
               <img src="./img/tools.png" alt="tools" />
             </li>
             <li class="advantages-item">
@@ -130,7 +145,7 @@
                 mobile SDKs, and integrations with GitHub, Bitbucket, JIRA, and
                 more.
               </p>
-              <a href="/" class="">Start now</a>
+              <a href="/" class="link">Start now</a>
               <img src="./img/dev.png" alt="dev" />
             </li>
           </ul>
@@ -140,7 +155,7 @@
       <section class="ways">
         <div class="container">
           <h2 class="ways-header">What can you localize with Lokalise?</h2>
-          <ul class="ways-list">
+          <ul class="ways-list list">
             <li class="ways-item">
               <img src="./img/web-apps.png" alt="Web apps" />
               <h3 class="ways-item-header">Web apps</h3>
@@ -193,7 +208,7 @@
       <!-- team -->
       <section class="team">
         <div class="container">
-          <ul class="team-list">
+          <ul class="team-list list">
             <li class="team-item">
               <img src="./img/managers.png" alt="Managers" />
               <h3 class="team-header">Managers</h3>
@@ -292,49 +307,51 @@
           <p class="case-desc">
             Riding towards global success with a 100% teammate enthusiasm
           </p>
-          <a href="/" class="case-link">Read more</a>
+          <a href="/" class="case-link link">Read more</a>
         </div>
         <div class="footer-links">
-          <ul class="footer-link-list">
+          <ul class="footer-link-list list">
             <li class="footer-link-item">
               <h3 class="footer-link-header">Product</h3>
-              <a href="" class="footer-link">For developers</a
-              ><a href="" class="footer-link">For managers</a
-              ><a href="" class="footer-link">For translators</a
-              ><a href="" class="footer-link">For designers</a
-              ><a href="" class="footer-link">Integrations</a
-              ><a href="" class="footer-link">Security</a
-              ><a href="" class="footer-link">Pricing</a
-              ><a href="" class="footer-link">Automations</a>
+              <a href="" class="footer-link link">For developers</a
+              ><a href="" class="footer-link link">For managers</a
+              ><a href="" class="footer-link link">For translators</a
+              ><a href="" class="footer-link link">For designers</a
+              ><a href="" class="footer-link link">Integrations</a
+              ><a href="" class="footer-link link">Security</a
+              ><a href="" class="footer-link link">Pricing</a
+              ><a href="" class="footer-link link">Automations</a>
             </li>
             <li class="footer-link-item">
               <h3 class="footer-link-header">Support</h3>
-              <a href="/" class="footer-link">Contact</a
-              ><a href="/" class="footer-link">Documentation</a
-              ><a href="/" class="footer-link">Status</a
-              ><a href="/" class="footer-link">Product Updates</a
-              ><a href="/" class="footer-link">CLI Tool</a
-              ><a href="/" class="footer-link">API Reference</a
-              ><a href="/" class="footer-link">iOS and Android SDK</a
-              ><a href="/" class="footer-link">Supported File Formats</a>
+              <a href="/" class="footer-link link">Contact</a
+              ><a href="/" class="footer-link link">Documentation</a
+              ><a href="/" class="footer-link link">Status</a
+              ><a href="/" class="footer-link link">Product Updates</a
+              ><a href="/" class="footer-link link">CLI Tool</a
+              ><a href="/" class="footer-link link">API Reference</a
+              ><a href="/" class="footer-link link">iOS and Android SDK</a
+              ><a href="/" class="footer-link link">Supported File Formats</a>
             </li>
             <li class="footer-link-item">
               <h3 class="footer-link-header">Company</h3>
-              <a href="/" class="footer-link">About</a
-              ><a href="/" class="footer-link">Blog</a
-              ><a href="/" class="footer-link">Careers | We`re Hiring</a
-              ><a href="/" class="footer-link">Case Studies</a
-              ><a href="/" class="footer-link">Media Kit</a>
+              <a href="/" class="footer-link link">About</a
+              ><a href="/" class="footer-link link">Blog</a
+              ><a href="/" class="footer-link link">Careers | We`re Hiring</a
+              ><a href="/" class="footer-link link">Case Studies</a
+              ><a href="/" class="footer-link link">Media Kit</a>
             </li>
             <li class="footer-link-item">
               <h3 class="footer-link-header">Legal</h3>
-              <a href="/" class="footer-link">Terms of Service</a
-              ><a href="/" class="footer-link">Privacy Policy</a
-              ><a href="/" class="footer-link">Cookie Policy</a
-              ><a href="/" class="footer-link">Privacy Shield</a
-              ><a href="/" class="footer-link">DPA</a
-              ><a href="/" class="footer-link">List of Sub-processors</a
-              ><a href="/" class="footer-link">Candidates Privacy Notice</a>
+              <a href="/" class="footer-link link">Terms of Service</a
+              ><a href="/" class="footer-link link">Privacy Policy</a
+              ><a href="/" class="footer-link link">Cookie Policy</a
+              ><a href="/" class="footer-link link">Privacy Shield</a
+              ><a href="/" class="footer-link link">DPA</a
+              ><a href="/" class="footer-link link">List of Sub-processors</a
+              ><a href="/" class="footer-link link"
+                >Candidates Privacy Notice</a
+              >
             </li>
           </ul>
         </div>
