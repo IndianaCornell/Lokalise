@@ -1,3 +1,16 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Graphik LC";
+  src: url("../fonts/GraphikRegular.otf");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Graphik LC";
+  src: url("../fonts/Graphik-Semibold.ttf");
+}
+
+
 h1,
 h2,
 h3,
@@ -39,22 +52,24 @@ input a {
 }
 
 .container {
-  width: 1330px;
+  width: 1420px;
   margin: 0 auto;
   outline: 1px solid red;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 /* header */
 
 .header {
-  padding: 25px 0;
+  padding: 25px 20px;
   border-bottom: 1px solid rgba(217, 217, 217, 1);
 }
 
 .header-container {
   display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .header-navigation {
@@ -71,7 +86,7 @@ input a {
 }
 
 .nav-link {
-  font-family: 'Poppins';
+  font-family: "Graphik LC";
   font-size: 15px;
   font-weight: 400;
   line-height: 1.33;
@@ -87,8 +102,8 @@ input a {
   min-width: 120px;
   padding: 1px 36px;
   background: none;
-  border: 1px solid #00000080;
-  font-family: 'Poppins';
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-family: "Graphik LC";
   font-size: 16px;
   font-weight: 600;
   line-height: 2.81;
@@ -107,31 +122,41 @@ input a {
 /* hero  */
 
 .hero>.container {
-  padding-top: 129px;
-  padding-bottom: 172px;
+  padding-top: 115px;
+  padding-bottom: 182px;
   display: flex;
 }
 
+
 .hero-header {
-  font-family: 'Poppins';
+  font-family: "Graphik LC";
   font-size: 65px;
   font-weight: 600;
   line-height: 1.16;
+  margin-bottom: 51px;
 }
 
 .hero-desc {
-  font-family: 'Poppins';
+  font-family: "Graphik LC";
   font-size: 25px;
   font-weight: 400;
   line-height: 1.4;
+  margin-bottom: 51px;
+  max-width: 470px;
+}
+
+.hero-desc-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
 }
 
 .hero-btn {
   min-width: 160px;
   padding: 0px 29px;
   background: none;
-  border: 1px solid #00000080;
-  font-family: 'Poppins';
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-family: "Graphik LC";
   font-size: 16px;
   font-weight: 600;
   line-height: 2.81;
@@ -144,4 +169,13 @@ input a {
   background: #ff6336;
   color: white;
   border: 1px solid #ffffff;
+}
+
+.hero-remark {
+  font-family: "Graphik LC";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 0.6;
+  letter-spacing: 0em;
+  text-align: left;
 }
