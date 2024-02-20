@@ -52,11 +52,11 @@ input a {
 }
 
 .container {
-  width: 1420px;
+  width: 1440px;
   margin: 0 auto;
   outline: 1px solid red;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 /* header */
@@ -68,8 +68,8 @@ input a {
 
 .header-container {
   display: flex;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .header-navigation {
@@ -178,4 +178,195 @@ input a {
   line-height: 0.6;
   letter-spacing: 0em;
   text-align: left;
+}
+
+
+/* companies list */
+
+.companies>.container {
+  padding-top: 98px;
+  padding-bottom: 94px;
+  background: rgba(255, 156, 125, 1);
+  ;
+}
+
+.companies-header {
+  font-family: "Graphik LC";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.companies-list {
+  display: flex;
+  justify-content: center;
+  gap: 103px;
+}
+
+
+/* advantages */
+
+.advantages>.container {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 250px;
+}
+
+.advantages-item {
+  display: flex;
+  gap: 138px;
+}
+
+.advantages-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.advantages-item-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.advatages-header {
+  font-family: "Graphik LC";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.advantages-desc {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.advantages-link {
+  font-family: "Graphik LC";
+  color: rgba(0, 0, 0, 1);
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+/* ways */
+
+.ways>.container {
+  padding-top: 93px;
+  padding-bottom: 120px;
+  background: rgba(255, 248, 228, 1);
+
+}
+
+.ways-header {
+  font-family: "Graphik LC";
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  margin-bottom: 58px;
+}
+
+.ways-list {
+  display: flex;
+  padding: 0 40px 57px 40px;
+  gap: 110px;
+  flex-wrap: wrap;
+}
+
+.ways-item {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-items: center;
+  width: calc((100% - 220px - 80px) / 3);
+}
+
+.ways-item-header {
+  font-family: "Graphik LC";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0em;
+}
+
+.ways-item-desc {
+  font-family: "Graphik LC";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.38;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* team */
+
+.team>.container {
+  padding-top: 154px;
+  padding-bottom: 120px;
+}
+
+.team-header {
+  font-family: "Graphik LC";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.team-list {
+  display: flex;
+  font-display: row;
+}
+
+.team-item {
+  width: calc(100%/3);
+}
+
+
+.team-header {
+  font-family: "Graphik LC";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.team-desc {
+  font-family: "Graphik LC";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
+}
+
+.team-link {
+  font-family: "Graphik LC";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
