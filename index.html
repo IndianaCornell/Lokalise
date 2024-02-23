@@ -222,8 +222,10 @@
         <p class="team-header">Boost your localization teams productivity tenfold</p>
         <ul class="team-list list">
           <li class="team-item">
-            <img src="./img/managers.png" alt="Managers" />
-            <h3 class="team-header">Managers</h3>
+            <div class="team-image-container">
+              <img src="./img/managers.png" alt="Managers" />
+            </div>
+            <h3 class="team-desc-header">Managers</h3>
             <p class="team-desc">
               Update existing and launch new features and products while
               simultaneously localizing them in multiple languages. Streamline
@@ -233,8 +235,10 @@
             <a href="/" class="team-link link">Learn More</a>
           </li>
           <li class="team-item">
-            <img src="./img/developers.png" alt="developers" />
-            <h3 class="team-header">Developers</h3>
+            <div class="team-image-container">
+              <img src="./img/developers.png" alt="developers" />
+            </div>
+            <h3 class="team-desc-header">Developers</h3>
             <p class="team-desc">
               Set up an integration with your code repository or your own
               custom SDK via Lokalise's powerful API. Do that once, and every
@@ -244,8 +248,10 @@
             <a href="/" class="team-link link">Learn More</a>
           </li>
           <li class="team-item">
-            <img src="./img/translators.png" alt="translators" />
-            <h3 class="team-header">Translators</h3>
+            <div class="team-image-container">
+              <img src="./img/translators.png" alt="translators" />
+            </div>
+            <h3 class="team-desc-header">Translators</h3>
             <p class="team-desc">
               Eliminate double-work and neverending revisions with visual
               context (screenshots) and live previews. Improve the quality and
@@ -261,27 +267,32 @@
     <!-- chief -->
     <section class="chief">
       <div class="container">
-        <p class="chief desc">
-          "Lokalise has turned a task we were dreading into an absolute
-          pleasure. Great platform, intuitive UX, powerful API. The automatic
-          text recognition for screenshots has been a lifesaver, and
-          over-the-air updates are the icing on the cake."
-        </p>
-        <p class="chief position">Edward Cooper, Chief Mobile Officer</p>
-        <img src="./img/revoult.svg" alt="Revoult" />
-        <img src="./img/chief.jpg" alt="Edward Cooper" class="" />
+        <div class="chief-desc-container">
+          <p class="chief-desc">
+            "Lokalise has turned a task we were dreading into an absolute
+            pleasure. Great platform, intuitive UX, powerful API. The automatic
+            text recognition for screenshots has been a lifesaver, and
+            over-the-air updates are the icing on the cake."
+          </p>
+          <p class="chief-position">Edward Cooper, Chief Mobile Officer</p>
+          <img src="./img/revoult.svg" width="112" alt="Revoult" />
+        </div>
+        <img src="./img/chief.jpg" width="310" alt="Edward Cooper" class="" />
       </div>
     </section>
     <!-- achievements -->
     <section class="achivments">
       <div class="container">
-        <img src="./img/cake.png" alt="cake" />
-        <h2 class="achivments-header">
-          The most-loved translation management software
-        </h2>
-        <hr />
-        <img src="./img/users.png" alt="users-love" />
-        <img src="./img/capterra.png" alt="Capterra" />
+        <div class="achivments-header-container">
+          <img src="./img/cake.png" alt="cake" />
+          <h2 class="achivments-header">
+            The most-loved translation management software
+          </h2>
+        </div>
+        <div class="achivments-marks-container">
+          <img src="./img/users.png" alt="users-love" />
+          <img src="./img/capterra.png" alt="Capterra" />
+        </div>
       </div>
     </section>
     <!-- integration -->
@@ -295,7 +306,7 @@
           ease.
         </p>
         <img src="./img/integration.png" alt="integration" />
-        <button class="integration-button">See all integrations</button>
+        <button class="integration-btn btn">See all integrations</button>
       </div>
     </section>
     <!-- try it free -->
@@ -305,62 +316,71 @@
         <p class="tryit-desc">
           Try for free or let us show you how it works.
         </p>
-        <button class="tryit-btn">Try it free</button>
+        <button class="tryit-btn btn">Try it free</button>
       </div>
     </section>
   </main>
   <footer>
     <!-- footer -->
     <div class="container">
-      <div class="case">
-        <h2 class="case-header">Case Studies</h2>
-        <img src="./img/cyclists.jpg" alt="cyclists" />
-        <img src="./img/specialized.svg" alt="Specialized" />
-        <p class="case-desc">
-          Riding towards global success with a 100% teammate enthusiasm
-        </p>
-        <a href="/" class="case-link link">Read more</a>
-      </div>
-      <div class="footer-links">
-        <ul class="footer-link-list list">
-          <li class="footer-link-item">
-            <h3 class="footer-link-header">Product</h3>
-            <a href="" class="footer-link link">For developers</a><a href="" class="footer-link link">For managers</a><a
-              href="" class="footer-link link">For translators</a><a href="" class="footer-link link">For
-              designers</a><a href="" class="footer-link link">Integrations</a><a href=""
-              class="footer-link link">Security</a><a href="" class="footer-link link">Pricing</a><a href=""
-              class="footer-link link">Automations</a>
-          </li>
-          <li class="footer-link-item">
-            <h3 class="footer-link-header">Support</h3>
-            <a href="/" class="footer-link link">Contact</a><a href="/" class="footer-link link">Documentation</a><a
-              href="/" class="footer-link link">Status</a><a href="/" class="footer-link link">Product Updates</a><a
-              href="/" class="footer-link link">CLI Tool</a><a href="/" class="footer-link link">API Reference</a><a
-              href="/" class="footer-link link">iOS and Android SDK</a><a href="/" class="footer-link link">Supported
-              File Formats</a>
-          </li>
-          <li class="footer-link-item">
-            <h3 class="footer-link-header">Company</h3>
-            <a href="/" class="footer-link link">About</a><a href="/" class="footer-link link">Blog</a><a href="/"
-              class="footer-link link">Careers | We`re Hiring</a><a href="/" class="footer-link link">Case Studies</a><a
-              href="/" class="footer-link link">Media Kit</a>
-          </li>
-          <li class="footer-link-item">
-            <h3 class="footer-link-header">Legal</h3>
-            <a href="/" class="footer-link link">Terms of Service</a><a href="/" class="footer-link link">Privacy
-              Policy</a><a href="/" class="footer-link link">Cookie Policy</a><a href="/"
-              class="footer-link link">Privacy Shield</a><a href="/" class="footer-link link">DPA</a><a href="/"
-              class="footer-link link">List of Sub-processors</a><a href="/" class="footer-link link">Candidates Privacy
-              Notice</a>
-          </li>
-        </ul>
+      <div class="footer-links-container">
+        <div class="case">
+          <h2 class="case-header">Case Studies</h2>
+          <img src="./img/cyclists.jpg" width="300" alt="cyclists" />
+          <img src="./img/specialized.svg" class="case-logo" width="80" alt="Specialized" />
+          <p class="case-desc">
+            Riding towards global success with a 100% teammate enthusiasm
+          </p>
+          <a href="/" class="case-link link">Read more</a>
+        </div>
+        <div class="footer-links">
+          <ul class="footer-link-list list">
+            <li class="footer-link-item">
+              <h3 class="footer-link-header">Product</h3>
+              <a href="" class="footer-link link">For developers</a><a href="" class="footer-link link">For
+                managers</a><a href="" class="footer-link link">For translators</a><a href=""
+                class="footer-link link">For
+                designers</a><a href="" class="footer-link link">Integrations</a><a href=""
+                class="footer-link link">Security</a><a href="" class="footer-link link">Pricing</a><a href=""
+                class="footer-link link">Automations</a>
+            </li>
+            <li class="footer-link-item">
+              <h3 class="footer-link-header">Support</h3>
+              <a href="/" class="footer-link link">Contact</a><a href="/" class="footer-link link">Documentation</a><a
+                href="/" class="footer-link link">Status</a><a href="/" class="footer-link link">Product Updates</a><a
+                href="/" class="footer-link link">CLI Tool</a><a href="/" class="footer-link link">API Reference</a><a
+                href="/" class="footer-link link">iOS and Android SDK</a><a href="/" class="footer-link link">Supported
+                File Formats</a>
+            </li>
+            <li class="footer-link-item">
+              <h3 class="footer-link-header">Company</h3>
+              <a href="/" class="footer-link link">About</a><a href="/" class="footer-link link">Blog</a><a href="/"
+                class="footer-link link">Careers | We`re Hiring</a><a href="/" class="footer-link link">Case
+                Studies</a><a href="/" class="footer-link link">Media Kit</a>
+            </li>
+            <li class="footer-link-item">
+              <h3 class="footer-link-header">Legal</h3>
+              <a href="/" class="footer-link link">Terms of Service</a><a href="/" class="footer-link link">Privacy
+                Policy</a><a href="/" class="footer-link link">Cookie Policy</a><a href="/"
+                class="footer-link link">Privacy Shield</a><a href="/" class="footer-link link">DPA</a><a href="/"
+                class="footer-link link">List of Sub-processors</a><a href="/" class="footer-link link">Candidates
+                Privacy
+                Notice</a>
+            </li>
+          </ul>
+        </div>
       </div>
       <hr />
       <div class="copyright">
-        <img src="./img/footer-logo.png" alt="copyright-logo" />
-        <small>Localization workflow for your web and mobile apps, games and
-          digital content.</small>
-        <small>©2001-2020 All rights reserved.</small>
+        <div class="copyright-logo-container">
+          <img src="./img/footer-logo.png" alt="copyright-logo" />
+          <small class="copyright-desc">Localization workflow for your web and mobile apps, games and
+            digital content.</small>
+        </div>
+        <div class="copyright-years">
+          <small class="copyright-desc">©2001-2020</small>
+          <small class="copyright-desc">All rights reserved.</small>
+        </div>
       </div>
     </div>
   </footer>
